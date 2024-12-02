@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTROPIA TATTOO</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: #111;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.5rem;
+            color: #aaa;
+        }
+        .cta {
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: #ff4500;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .cta:hover {
+            background: #e03e00;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #111;
+            border-radius: 10px;
+        }
+        .form input, .form textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .form button {
+            padding: 15px 30px;
+            background: #ff4500;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form button:hover {
+            background: #e03e00;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+        }
+        footer a {
+            color: #ff4500;
+            text-decoration: none;
+        }
+    </style>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXXXXXX-X');
+    </script>
+</head>
+<body>
+    <header>
+        <h1>ENTROPIA TATTOO</h1>
+        <p>you're friendly artist</p>
+        <a href="#form" class="cta">Prenota un appuntamento</a>
+    </header>
+    <section class="section">
+        <h2>Professionisti del tatuaggio</h2>
+        <p>Tatuaggi di ogni stile eseguiti da professionisti nel settore!</p>
+    </section>
+    <section class="section gallery">
+        <h2>Le nostre opere</h2>
+        <img src="tattoo1.jpg" alt="Tatuaggio 1">
+        <img src="tattoo2.jpg" alt="Tatuaggio 2">
+        <img src="tattoo3.jpg" alt="Tatuaggio 3">
+    </section>
+    <section id="form" class="section">
+        <h2>Prenota un appuntamento</h2>
+        <form class="form">
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Telefono">
+            <textarea placeholder="Descrivi la tua idea"></textarea>
+            <button type="submit">Invia</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 ENTROPIA TATTOO | <a href="#">Contattaci</a></p>
+    </footer>
+</body>
+</html>
